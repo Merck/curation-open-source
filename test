@@ -1,0 +1,17 @@
+#!/bin/bash -l
+#
+#$ -cwd
+#$ -P vlong
+#$ -N test_curation
+#$ -l mem_reserve=200G -l mem_free=200G -l h_vmem=200G
+#$ -o /SFS/scratch/$USER/$JOB_NAME.$JOB_ID.out -e /SFS/scratch/$USER/$JOB_NAME.$JOB_ID.err
+#
+
+set -e
+
+cd /SFS/project/comp/cmb/hannigag/git/curation-open-source
+
+# For our HPC, load in the required modules
+module load python/3.7.2
+
+bash run_curation.sh -i input_files/test.fasta -w /SFS/project/comp/cmb/hannigag/git/curation-open-source -s /SFS/project/comp/cmb/hannigag/git/curation-open-source -k /SFS/scratch/klempir/viral_db_curation/kraken/kraken2 -d /SFS/scratch/klempir/viral_db_curation/krakenDB_03_20_2019_NCBI/ -m /SFS/project/comp/cmb/bin/ncbi-blast-2.7.1+/bin/dustmasker

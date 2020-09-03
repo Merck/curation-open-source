@@ -1,0 +1,20 @@
+--------------------------------------------------
+Third party dependencies listed by License type
+[Format: name - URL]
+--------------------------------------------------
+
+United States Government Work
+* Dustmasker (part of BLAST+ 2.7.1) - https://www.ncbi.nlm.nih.gov/IEB/ToolBox/CPP_DOC/lxr/source/scripts/projects/blast/LICENSE
+
+Biopython License Agreement
+* Biopython (biopython) - https://github.com/biopython/biopython/blob/d5718bb7e3ee505b859b39c03f8ffad8a9a0be2f/LICENSE.rst
+
+BSD 3-Clause License
+* Pandas (pandas) - https://github.com/pandas-dev/pandas/blob/5aba6659e422e985683cfb46c07c3364a02b6e5b/AUTHORS.md
+
+Python Software Foundation License (BSD)
+* Matplotlib (matplotlib) - https://matplotlib.org/users/license.html
+* Statistics (pystatistics) - https://github.com/digitalemagine/py-statistics/blob/master/LICENSE
+
+MIT License (MIT)
+* Kraken 2 - https://github.com/DerrickWood/kraken2/blob/master/LICENSE
